@@ -1,0 +1,98 @@
+.container-fluid1 {
+    background-color: black;
+    text-align: center;
+    transform: translate(1px, 1px);
+}
+
+.container-fluid2 {
+	padding-left: 0px;
+    padding-right: 0px;
+    background-color: black;
+    color: grey;
+}
+
+@import "colores";
+$tamañoTitulo:50px;
+$tamañoArticulo:20px;
+$paddingArticulo:5px;
+$widthForm:350px;
+$marginForm:auto;
+$paddingForm:50px;
+$textAlignTituloForm:center;
+$paddingTituloForm:90px;
+$paddingTituloForm2:20px;
+
+
+ul {
+ list-style: none;
+ 	 li {
+   		padding: 15px;
+   		display: inline-block;
+  	       a {
+    		     text-decoration: none;
+   	                 font-size: 16px;
+    		     color: #444;
+   	      }
+             }
+}
+
+/*BEM*/
+
+.noticia {
+    background-color: $colorGris;
+}
+
+.noticia__titulo {
+    color: $colorRojo;
+    font-size: $tamañoTitulo;
+}
+
+.noticia__texto {
+    padding: $paddingArticulo;
+    color: $colorNegro;
+}
+
+.info {
+    background-color: $colorNegro;
+}
+
+.info__titulo {
+    color: $colorAzul;
+    font-size: $tamañoTitulo;
+}
+
+.info__texto {
+    padding: $paddingArticulo;
+}
+
+.footer {
+    background-color: $colorGris;
+}
+
+.footer__texto {
+    color: $colorNegro;   
+}
+
+
+.formulario {
+    width: $widthForm;
+    margin-left: $marginForm;
+    margin-right: $marginForm;
+    padding-bottom: $paddingForm;
+}
+
+.formulario__titulo {
+    text-align: $textAlignTituloForm;
+    padding-top: $paddingTituloForm;
+    padding-bottom: $paddingTituloForm2;
+}
+
+input {
+    width: 100px; height: 100px;
+    transition: all 2s;       
+ }
+ input:focus {
+    width: 200px;
+    font-size: 24px;
+ }
+ 

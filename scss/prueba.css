@@ -1,0 +1,90 @@
+.container-fluid1 {
+  background-color: black;
+  text-align: center;
+  -webkit-transform: translate(1px, 1px);
+          transform: translate(1px, 1px);
+}
+
+.container-fluid2 {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: black;
+  color: grey;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 15px;
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #444;
+}
+
+/*BEM*/
+.noticia {
+  background-color: grey;
+}
+
+.noticia__titulo {
+  color: red;
+  font-size: 50px;
+}
+
+.noticia__texto {
+  padding: 5px;
+  color: black;
+}
+
+.info {
+  background-color: black;
+}
+
+.info__titulo {
+  color: blue;
+  font-size: 50px;
+}
+
+.info__texto {
+  padding: 5px;
+}
+
+.footer {
+  background-color: grey;
+}
+
+.footer__texto {
+  color: black;
+}
+
+.formulario {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.formulario__titulo {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+input {
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+input:focus {
+  width: 200px;
+  font-size: 24px;
+}
+/*# sourceMappingURL=prueba.css.map */
