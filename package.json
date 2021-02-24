@@ -1,7 +1,7 @@
 {
-  "name": "miweb",
+  "name": "proyecto-final-4-entrega-deusex",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina dedicada al videojuego Deus Ex",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
